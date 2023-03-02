@@ -1,0 +1,30 @@
+extends ./layout/index
+
+block contenido
+    main.container.mt-5 
+        .row
+            .col-md-5 
+                img(src="img/nosotros.jpg", alt="imagen sobre nosotros", class = "img-fluid")
+            .col-md-7
+                h1 #{pagina}
+                blockquote Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula diam, dapibus quis cursus et, ullamcorper vel arcu. Vivamus iaculis quam in ultricies venenatis. Duis sollicitudin orci quis rutrum auctor. Proin sed fringilla est. Mauris viverra sem id eleifend gravida. 
+
+                p Fusce orci mi, aliquet et justo non, dictum congue lacus. Phasellus sagittis ac leo ac placerat. Integer ipsum est, lacinia vel porttitor ut, tincidunt eleifend elit. Donec dictum sagittis mauris, eget tincidunt neque posuere et. Integer ac turpis efficitur, commodo neque tincidunt, tempor libero. Ut eu egestas neque. Quisque congue urna mauris, id porttitor nulla efficitur nec. Cras mattis metus eget elit elementum sodales. Mauris pretium et nisi quis maximus. Suspendisse metus orci, interdum vel elit id, imperdiet aliquam lectus.
+
+                p Suspendisse odio sem, laoreet nec facilisis ac, mollis at est. Quisque commodo imperdiet est, maximus imperdiet nisl accumsan vel. Donec laoreet ante dui, sed sagittis nisl fringilla a. Suspendisse porta tempus augue fermentum vulputate. Fusce ante lectus, finibus id felis nec, mollis dignissim ante. Praesent posuere sapien at augue semper, sit amet tempor lacus porta
+    
+    .listado-iconos 
+        .container.mt-5.py-5.text-center 
+            .row 
+                .col-md-4 
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad" class = "img-fluid mb-4")
+                    h2.mb-4 Seguridad
+                    p Praesent posuere sapien at augue semper, sit amet tempor lacus porta
+                .col-md-4 
+                    img(src="img/icono_destinos.svg", alt="icono destinos" class = "img-fluid mb-4")
+                    h2.mb-4 Mejores Destinos
+                    p Praesent posuere sapien at augue semper, sit amet tempor lacus porta
+                .col-md-4 
+                    img(src="img/icono_precios.svg", alt="icono precios" class = "img-fluid mb-4")
+                    h2.mb-4 Los mejores Precios
+                    p Praesent posuere sapien at augue semper, sit amet tempor lacus porta
